@@ -1,0 +1,68 @@
+basemetalsupport.jpg		//есть
+border11.jpg			//есть
+border11b.jpg			//есть
+border11c.jpg			//есть
+border11c_light.jpg		//бленд
+border11c_pulse1b.jpg		//бленд
+border11light.glow.jpg		//бленд
+border11light.jpg		//есть
+border12.jpg			//есть
+border12b.jpg			//=border12.jpg
+border12bfx.jpg			//бленд
+bridgesupport1e_fin.jpg		//надо, сложный
+bridgesupport1j_fin.jpg		//надо, сложный
+chrome_border.jpg		//хз, маленький
+dark_tin2.tga			//не надо
+deeprust.jpg			//не надо
+dirty_pewter.jpg		//не надо
+dirty_pewter_big.jpg		//хз, может царапины сделать
+greenoct28.jpg			//есть, может поправить чуть
+holemech01_h.jpg		//надо, сложный
+melty_pewter.jpg		//надо, тоже непростой
+metal2_2.tga			//есть
+panel01.jpg			//надо
+panel02.jpg			//надо, часть panel01.jpg
+panel03.jpg			//надо, часть panel01.jpg
+panel_edged.jpg			//надо, сложный
+panel_glo.tga			//есть
+panel_shiny.tga			//=panel_glo.tga
+panelbrn01scr.jpg		//есть
+panelbrn010w.tga		//есть =panel_glo.tga + дырка
+pewter.jpg			//не надо, может только пару царапин
+pewter_shiney.tga		//=pewter_shiney.tga
+pewter_spec.jpg			//не надо
+pewterstep.jpg			//хз, посмотреть в кваке
+proto_comp2.jpg			//не надо
+proto_comp.tga			//хз, вроде надо
+proto_fence.tga			//решетка, надо
+rusty_pewter_big.jpg		//надо вроде
+slots1_1.jpg			//есть
+spiderbit2.jpg			//надо
+spiderbit3.jpg			//надо
+spiderbit4.jpg			//надо
+spiderbit6.jpg			//надо
+spiderbit.jpg			//надо
+spiderbit_fx.jpg		//бленд
+spiderbit_ow.jpg		//надо
+spiderbite.tga			//надо
+spidertrim3.tga			//надо
+spidertrim4.tga			//надо
+spidertrim.jpg			//не надо
+techborder.jpg			//надо
+techborder_fx.jpg		//бленд
+tin.jpg			 	//не надо
+tinfx.jpg			//не надо
+wire02_f1.jpg			//надо
+wire02a_f.jpg			//надо
+wires01.tga			//надо
+wires01_ass.tga			//надо
+wires02.tga			//есть, подумать над переделкой
+xborder11b.jpg			//есть
+xian_dm3padwall_x2.jpg		//надо
+xian_dm3padwall_x.jpg		//надо
+xian_dm3padwall_y.jpg		//надо
+xred1_2.jpg			//не надо
+xspiderbit4.jpg			//надо
+yellow_rustb.jpg		//не надо
+yellow_rustb_v1.jpg		//не надо
+yellow_rustbx128.jpg		//не надо
