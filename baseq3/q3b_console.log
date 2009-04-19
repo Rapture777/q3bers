@@ -1,0 +1,560 @@
+logfile opened on Mon Apr 13 01:17:11 2009
+
+]\seta logfile 1
+]\vid_restart 
+RE_Shutdown( 1 )
+Shutting down OpenGL subsystem
+...wglMakeCurrent( NULL, NULL ): success
+...deleting GL context: success
+...releasing DC: success
+...destroying window
+...resetting display
+...shutting down QGL
+...unloading OpenGL DLL
+Hunk_Clear: reset the hunk ok
+----- Initializing Renderer ----
+-------------------------------
+----- R_Init -----
+Initializing OpenGL subsystem
+...initializing OpenGL
+...calling LoadLibrary( 'C:\Windows\system32\opengl32.dll' ): succeeded
+...setting mode 4: 800 600 FullScreen
+...using colorsbits of 32
+...calling CDS: ok
+...created window@0,0 (800x600)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 8 )
+...65 PFDs found
+...hardware acceleration found
+...PIXELFORMAT 2 selected
+...creating GL context: succeeded
+...making context current: succeeded
+Initializing OpenGL extensions
+X..ignoring GL_ARB_texture_compression for textures
+X..ignoring GL_ARB_texture_compression for normalmaps
+X..GL_EXT_texture_compression_s3tc not found
+X..GL_S3_s3tc not found
+X..ignoring GL_EXT_texture_lod_bias
+X..ignoring GL_EXT_texture_filter_anisotropic
+...using WGL_EXT_swap_control
+...using GL_EXT_draw_range_elements
+...using GL_ARB_multitexture [8 TMUs]
+...using GL_EXT_compiled_vertex_array
+...using GL_EXT_texture_edge_clamp
+...using GL_ARB_shader_objects
+...using GL_ARB_vertex_shader
+...using GL_ARB_fragment_shader
+...using GL_EXT_framebuffer_object
+...using GL_ARB_texture_rectangle
+...using GL_ARB_draw_buffers [8]
+...using GL_EXT_packed_depth_stencil
+
+GL_VENDOR: ATI Technologies Inc.
+GL_RENDERER: ATI Radeon HD 2600 PRO
+GL_VERSION: 2.1.8577
+GL_EXTENSIONS:
+    GL_AMDX_vertex_shader_tessellator
+    GL_AMD_performance_monitor
+    GL_ARB_color_buffer_float
+    GL_ARB_depth_buffer_float
+    GL_ARB_depth_texture
+    GL_ARB_draw_buffers
+    GL_ARB_draw_instanced
+    GL_ARB_fragment_program
+    GL_ARB_fragment_program_shadow
+    GL_ARB_fragment_shader
+    GL_ARB_framebuffer_object
+    GL_ARB_framebuffer_sRGB
+    GL_ARB_half_float_pixel
+    GL_ARB_half_float_vertex
+    GL_ARB_instanced_arrays
+    GL_ARB_map_buffer_range
+    GL_ARB_multisample
+    GL_ARB_multitexture
+    GL_ARB_occlusion_query
+    GL_ARB_pixel_buffer_object
+    GL_ARB_point_parameters
+    GL_ARB_point_sprite
+    GL_ARB_shader_objects
+    GL_ARB_shader_texture_lod
+    GL_ARB_shading_language_100
+    GL_ARB_shadow
+    GL_ARB_shadow_ambient
+    GL_ARB_texture_border_clamp
+    GL_ARB_texture_buffer_object
+    GL_ARB_texture_compression
+    GL_ARB_texture_compression_rgtc
+    GL_ARB_texture_cube_map
+    GL_ARB_texture_env_add
+    GL_ARB_texture_env_combine
+    GL_ARB_texture_env_crossbar
+    GL_ARB_texture_env_dot3
+    GL_ARB_texture_float
+    GL_ARB_texture_mirrored_repeat
+    GL_ARB_texture_non_power_of_two
+    GL_ARB_texture_rectangle
+    GL_ARB_texture_rg
+    GL_ARB_transpose_matrix
+    GL_ARB_vertex_array_object
+    GL_ARB_vertex_buffer_object
+    GL_ARB_vertex_program
+    GL_ARB_vertex_shader
+    GL_ARB_window_pos
+    GL_ATI_draw_buffers
+    GL_ATI_envmap_bumpmap
+    GL_ATI_fragment_shader
+    GL_ATI_meminfo
+    GL_ATI_separate_stencil
+    GL_ATI_texture_compression_3dc
+    GL_ATI_texture_env_combine3
+    GL_ATI_texture_float
+    GL_EXT_abgr
+    GL_EXT_bgra
+    GL_EXT_bindable_uniform
+    GL_EXT_blend_color
+    GL_EXT_blend_equation_separate
+    GL_EXT_blend_func_separate
+    GL_EXT_blend_minmax
+    GL_EXT_blend_subtract
+    GL_EXT_compiled_vertex_array
+    GL_EXT_copy_buffer
+    GL_EXT_copy_texture
+    GL_EXT_draw_buffers2
+    GL_EXT_draw_range_elements
+    GL_EXT_fog_coord
+    GL_EXT_framebuffer_blit
+    GL_EXT_framebuffer_multisample
+    GL_EXT_framebuffer_object
+    GL_EXT_framebuffer_sRGB
+    GL_EXT_gpu_program_parameters
+    GL_EXT_gpu_shader4
+    GL_EXT_multi_draw_arrays
+    GL_EXT_packed_depth_stencil
+    GL_EXT_packed_float
+    GL_EXT_packed_pixels
+    GL_EXT_point_parameters
+    GL_EXT_rescale_normal
+    GL_EXT_secondary_color
+    GL_EXT_separate_specular_color
+    GL_EXT_shadow_funcs
+    GL_EXT_stencil_wrap
+    GL_EXT_subtexture
+    GL_EXT_texgen_reflection
+    GL_EXT_texture3D
+    GL_EXT_texture_array
+    GL_EXT_texture_buffer_object
+    GL_EXT_texture_compression_latc
+    GL_EXT_texture_compression_rgtc
+    GL_EXT_texture_compression_s3tc
+    GL_EXT_texture_cube_map
+    GL_EXT_texture_edge_clamp
+    GL_EXT_texture_env_add
+    GL_EXT_texture_env_combine
+    GL_EXT_texture_env_dot3
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_texture_integer
+    GL_EXT_texture_lod_bias
+    GL_EXT_texture_mirror_clamp
+    GL_EXT_texture_object
+    GL_EXT_texture_rectangle
+    GL_EXT_texture_sRGB
+    GL_EXT_texture_shared_exponent
+    GL_EXT_texture_swizzle
+    GL_EXT_transform_feedback
+    GL_EXT_vertex_array
+    GL_KTX_buffer_region
+    GL_NV_blend_square
+    GL_NV_conditional_render
+    GL_NV_copy_depth_to_color
+    GL_NV_texgen_reflection
+    GL_SGIS_generate_mipmap
+    GL_SGIS_texture_edge_clamp
+    GL_SGIS_texture_lod
+    GL_WIN_swap_hint
+Selected PPL render path
+GLSL version: 1.20
+GL_MAX_TEXTURE_SIZE: 8192
+GL_MAX_RECTANGLE_TEXTURE_SIZE_ARB: 8192
+GL_MAX_TEXTURE_UNITS_ARB: 8
+GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB: 512
+GL_MAX_VERTEX_ATTRIBS_ARB: 16
+GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB: 16
+GL_MAX_TEXTURE_IMAGE_UNITS_ARB: 16
+GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB: 16
+GL_MAX_VARYING_FLOATS_ARB: 68
+GL_MAX_FRAGMENT_UNIFORM_COMPONENTS_ARB: 512
+GL_MAX_TEXTURE_COORDS_ARB: 16
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(8-bits)
+MODE: 4, 800 x 600 fullscreen hz:120
+CPU: Intel Pentium III
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 0
+texture bits: 32
+compiled vertex arrays: enabled
+compressed textures: none
+compressed normalmaps: none
+Initializing GLSL programs
+...loading 'glprogs/_z_pass.glsl'
+...loading 'glprogs/_internal.glsl'
+...loading 'glprogs/_bumpmap.glsl'
+...compiling: _replace.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _replace.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _replace.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _add.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _add.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _add.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _modulate.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _modulate.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _modulate.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _interpolate.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _interpolate.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _interpolate.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _interpolate_at.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _interpolate_at.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _interpolate_at.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _bump.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _bump_GT0.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_GT0.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_GT0.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _bump_LT80.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_LT80.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_LT80.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _bump_GE80.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_GE80.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_GE80.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _bump_interpolate.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_interpolate.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_interpolate.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _bump_interpolate_at.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_interpolate_at.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_interpolate_at.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _bump_parallax.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_parallax.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_parallax.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+ 
+...compiling: _bump_parallax_GT0.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_parallax_GT0.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_parallax_GT0.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+ 
+...compiling: _bump_parallax_LT80.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_parallax_LT80.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_parallax_LT80.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+ 
+...compiling: _bump_parallax_GE80.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_parallax_GE80.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_parallax_GE80.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+ 
+...compiling: _bump_interpolate_parallax.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_interpolate_parallax.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_interpolate_parallax.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [1] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [1] has mismatched access semantics between the vertex and fragment shader
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [1] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [1] has mismatched access semantics between the vertex and fragment shader
+ 
+...compiling: _bump_interpolate_parallax_at.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _bump_interpolate_parallax_at.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _bump_interpolate_parallax_at.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [1] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [1] has mismatched access semantics between the vertex and fragment shader
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [1] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [0] has mismatched access semantics between the vertex and fragment shader
+WARNING: built-in varying gl_TexCoord [1] has mismatched access semantics between the vertex and fragment shader
+ 
+...compiling: _z_pass_opaque.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling (clip): _z_pass_opaque.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _z_pass_opaque.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+...compiling: _FBO2Screen.vsh  ^3success
+^3Vertex shader was successfully compiled to run on hardware.
+
+...compiling: _FBO2Screen.fsh  ^3success
+^3Fragment shader was successfully compiled to run on hardware.
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+^3Fragment shader(s) linked, vertex shader(s) linked. 
+ 
+Loaded 19 programs
+Initializing FBO
+...generating FrameBuffer
+Initializing Shaders
+...loading 'scripts/terrain_example.shader'
+...loading 'scripts/atlantis.shader'
+...loading 'scripts/grtrees.shader'
+...loading 'scripts/oak.shader'
+...loading 'scripts/pred_cosole.shader'
+...loading 'scripts/q3map2_rungolem-5-16.shader'
+...loading 'scripts/rungolem-3.shader'
+...loading 'scripts/rungolem-5.shader'
+...loading 'scripts/rungolem.shader'
+...loading 'scripts/lightningnew.shader'
+...loading 'scripts/explode1.shader'
+...loading 'scripts/gfx.shader'
+...loading 'scripts/tim.shader'
+...loading 'scripts/base.shader'
+...loading 'scripts/base_button.shader'
+...loading 'scripts/base_floor.shader'
+...loading 'scripts/base_light.shader'
+...loading 'scripts/base_object.shader'
+...loading 'scripts/base_support.shader'
+...loading 'scripts/base_trim.shader'
+...loading 'scripts/base_wall.shader'
+...loading 'scripts/common.shader'
+...loading 'scripts/ctf.shader'
+...loading 'scripts/eerie.shader'
+...loading 'scripts/gothic_block.shader'
+...loading 'scripts/gothic_floor.shader'
+...loading 'scripts/gothic_light.shader'
+...loading 'scripts/gothic_trim.shader'
+...loading 'scripts/gothic_wall.shader'
+...loading 'scripts/hell.shader'
+...loading 'scripts/liquid.shader'
+...loading 'scripts/menu.shader'
+...loading 'scripts/models.shader'
+...loading 'scripts/organics.shader'
+...loading 'scripts/sfx.shader'
+...loading 'scripts/shrine.shader'
+...loading 'scripts/skin.shader'
+...loading 'scripts/sky.shader'
+...loading 'scripts/test.shader'
+...loading 'scripts/mg_final.shader'
+...loading 'materials/weapons.shader'
+...loading 'materials/tim.shader'
+...loading 'materials/test.shader'
+...loading 'materials/terrain_example.shader'
+...loading 'materials/tech1soc.shader'
+...loading 'materials/sky.shader'
+...loading 'materials/skin.shader'
+...loading 'materials/sfx.shader'
+...loading 'materials/rungolem.shader'
+...loading 'materials/rungolem-5.shader'
+...loading 'materials/q3map2_rungolem-5-16.shader'
+...loading 'materials/players.shader'
+...loading 'materials/organics.shader'
+...loading 'materials/models.shader'
+...loading 'materials/mg_final.shader'
+...loading 'materials/gothic_wall.shader'
+...loading 'materials/gothic_trim.shader'
+...loading 'materials/gothic_light.shader'
+...loading 'materials/gothic_floor.shader'
+...loading 'materials/gothic_block.shader'
+...loading 'materials/gfx.shader'
+...loading 'materials/evil8_base.shader'
+...loading 'materials/egyptsoc.shader'
+...loading 'materials/eerie.shader'
+...loading 'materials/deadmeat_pads.shader'
+...loading 'materials/deadmeat_objects.shader'
+...loading 'materials/deadmeat_metal.shader'
+...loading 'materials/deadmeat_lights.shader'
+...loading 'materials/ctf.shader'
+...loading 'materials/common.shader'
+...loading 'materials/base_wall.shader'
+...loading 'materials/base_trim.shader'
+...loading 'materials/base_support.shader'
+...loading 'materials/base_object.shader'
+...loading 'materials/base_light.shader'
+...loading 'materials/base_floor.shader'
+...loading 'materials/base_button.shader'
+...loading 'materials/ammo.shader'
+...loading 'materials/adm_animation.shader'
+----- finished R_Init -----
+Loading vm file vm/ui.qvm.
+VM file ui compiled to 594408 bytes of code
+ui loaded in 1963008 bytes on the hunk
+36 arenas parsed
+32 bots parsed
+Initializing DirectInput...
+DirectInput initialized.
+----- CL_Shutdown -----
+RE_Shutdown( 1 )
+Shutting down OpenGL subsystem
+...wglMakeCurrent( NULL, NULL ): success
+...deleting GL context: success
+...releasing DC: success
+...destroying window
+...resetting display
+...shutting down QGL
+...unloading OpenGL DLL
+-----------------------
